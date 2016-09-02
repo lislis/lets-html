@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Let's HTML</title>
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+    <section id="start">
+      <h1>Let's HTML</h1>
+      <h2>(and maybe CSS if there is enough time)</h2>
+      <a href="#1">Next</a>
+    </section>
+    <section id="1">
+
+      <h1>Hyper Text Markup Language </h1>
+
+      <p>HTML describes the structure of web pages semantically.</p>
+
+      <hr>
+
+      <p><strong>Markup Language</strong><br>because we describe what meaning a piece of text on a web page has <br> by putting markers around them <br>or indicate them with a single marker.</p>
+
+      <p>We call those markers (HTML) tags. Tags make up an (HTML) element. They can be enclosing or self-closing.</p>
+
+      <pre><code>&lt;p&gt;is enclosing&lt;/p&gt;</code></pre>
+      <pre><code>&lt;hr&gt; is self-closing</code></pre>
+
+
+      <p>Tags can have attributes in the opening tag. Those attributes can serve different purposes. They usually work like: <code>key="value"</code></p>
+
+      <p title="Ahoi!">This `p` element has a title attribute.</p>
+
+
+
+      <hr>
+
+      <p><strong>Hyper Text</strong> <br>because we can reference documents outside of the current document.</p>
+
+      <p>The most important element in that regard is the anchor tag.</p>
+
+      <pre><code>&lt;a href="#"&gt;this is what you'd call a link&lt;/a&gt;</code></pre>
+
+      <p>Notice the `href` attribute. It stands for `hyper reference` and can address elements of this page or other documents. Or even elements on other documents!</p>
+
+      <hr>
+
+      <p>Why is is cool?</p>
+
+      <a href="#2">Next</a>
+    </section>
+
+    <section id="2">
+
+      <h2>Meet Tim Berners-Lee</h2>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Tim_Berners-Lee_April_2009.jpg" alt="Tim Berners-Lee" width="400" height="auto">
+        <figcaption>Tim Berners-Lee on <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" title="Tim's Wikipedia article">Wikipedia</a></figcaption>
+      </figure>
+
+      <p>He was tired of walking the steps at CERN, so he invented the Internet.</p>
+
+      <p>Meaning a way to write documents that made sense of their structure and <br> a way that computers could exchange those documents, <br> aka HTML and <abbr title="Hyper Text Transfer Protocol">HTTP</abbr></p>
+
+      <a href="#3">Next</a>
+    </section>
+
+    <section id="3">
+
+      <h2>Broswers</h2>
+
+      <p>Tim also wrote a browser.</p>
+      <p>A Browser can make sense of the HTML structure and render (or display) an HTML page to a user in a easy to look at and understand manner.</p>
+      <p>Just like this document you're looking at right now.</p>
+
+      <hr>
+
+      <p>Tim called his browser <a href="https://en.wikipedia.org/wiki/WorldWideWeb" title="read about the WWW browser">WorldWideWeb</a>, later renamed to Nexus because <a href="https://en.wikipedia.org/wiki/World_Wide_Web" title="read about the information space">WWW</a> was then used for the whole system of webpages.</p>
+
+
+      <p>Web browsers gained massive popularity with <a href="https://en.wikipedia.org/wiki/Mosaic_(web_browser)" title="read about NCSA Mosaic">Mosaic</a>, whose interface is still the basis for browser interfaces today.</p>
+
+      <p>Mosaic was discontinued, but most of the team then worked on the <a href="https://en.wikipedia.org/wiki/Netscape_Navigator" title="read about NN">Netscape Navigator</a> which later would become the basis for the first <a href="https://en.wikipedia.org/wiki/Firefox" title="read about Firefox">Firefox browser</a>.</p>
+
+      <hr>
+
+      <p>The 90ies became famous for the so called <a href="https://en.wikipedia.org/wiki/Browser_wars" title="read about the browser wars">Browser Wars</a>. Different browsers emerged and fought for marked share. They implemented elements and other parts differently and it was not nice to develop functioning cross-browser websites.</p>
+      <p>The wars are considered over with an understanding that open web standards are the goal browser vendors aspire to.</p>
+
+      <a href="#4">Next</a>
+    </section>
+    <section id="4">
+
+      <h2>Web Standards</h2>
+
+      <p>Speaking of standards. Who decides on new elements and such?</p>
+
+      <p>That would be the <a href="https://www.w3.org/" title="visit the W3 consortium">W3C</a>.</p>
+      <p>They organise different working groups for web standards and work on specificatins that browser vendors then implement.</p>
+
+      <p>The HTML working group is called <a href="https://whatwg.org/" title="what?! wg ">WHATWG</a>.</p>
+
+      <hr>
+
+      <p>The cool thing about the W3C is that ideas for new features come from individuals and companies and institutions alike. <br>If you have strong opinions and a lot of time, you can participate!</p>
+
+      <p>A recent example of this is the <a href="https://responsiveimages.org/" title="about the RICG">responsive images group</a>. <br>They consist of frontend developers who were not satisfied with the drafts the W3C put out for new image elements. <br>So they proposed their own spec and it's now part of the standard!</p>
+
+      <a href="#5">Next</a>
+    </section>
+    <section id="5">
+
+      <h2>Back to HTML</h2>
+
+      <p>Let's look at some elements. This is just a selection of common ones.</p>
+
+      <h1>Headline 1</h1>
+      <h2>Headline 2</h2>
+      <h3>Headline 3</h3>
+      <h4>Headline 4</h4>
+      <h5>Headline 5</h5>
+      <h6>Headline 6</h6>
+
+      <p>Paragrpahs of text.</p>
+      <blockquote>
+        Some quotes
+        <cite>with a source</cite>
+      </blockquote>
+
+      <ul>
+        <li>A list</li>
+        <li>no order</li>
+      </ul>
+      <ol>
+        <li>A list</li>
+        <li>with order</li>
+      </ol>
+
+      <p>Sint tenetur non <strong>quo odit</strong> inventore dolores ullam.<br> Ex numquam <em>sit asperiores</em> non odio voluptatem <sub>repellat</sub>. Veritatis <sup>dolorum</sup> excepturi omnis perferendis est cumque facere.</p>
+
+      <a href="#6">And a link! Next</a>
+    </section>
+
+    <section id="6">
+
+      <h2>From web page to web app</h2>
+
+      <p>Web pages and web apps these days are more than just text documents. They come with sophisticated interfaces, dynamic content generated on servers talking to databases, individually cut for each user. And they look very shiny.<p>
+      <p>But in the end, no matter what backend language you use, you will generate HMTL that describes content and send it to your users.</p>
+
+      <a href="#7">Next</a>
+    </section>
+
+    <section id="7">
+
+      <h1>Let's talk about CSS</h1>
+
+      <h2>Cascading Style Sheets</h2>
+
+      <p>CSS is the styling langauge of the web. Where HTML gives content meaning and structure, CSS gives it good looks.</p>
+
+      <p>The `cascading` in the name comes from more advanced concepts that deal with hierarchy and specificity. But to get started we don't need to know about that.</p>
+
+      <a href="#8">Next</a>
+    </section>
+
+    <section id="8">
+
+      <h2>How do I CSS?</h2>
+
+      <p>CSS syntax follows simple rules.</p>
+
+      <pre><code>element {
+  property: value;
+}
+      </code></pre>
+
+      <p>That's it!</p>
+
+      <p>You can address elements with selectors. There is very good documentation of <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors" title="SELECT">how selectors work on the Mozilla Developer Network</a>.</p>
+      <p>How do I know what properties there are? You have to learn about them. It's slow and painful and I guess the reason why a lot of developers don't like writing CSS.</p>
+      <p>There is a workshop called <a href="http://cssclasses.cssconf.eu/" title="a workshop">CSS Classes</a> in Berlin and they have some nice resources and workshop materials online.</p>
+      <a href="#9">Next</a>
+    </section>
+
+    <section id="9">
+
+      <h1>Let's have some fun with this website</h1>
+
+      <p>Browsers these days come with a web inspector.</p>
+      <p>You can use it to look at the HTML and CSS of web page you visit. And you can change it live!</p>
+      <p>This is great to see how other people build websites, layouts and use styles.</p>
+
+      <h3>Try it now!</h3>
+
+
+      <a href="#start">To the top!</a>
+    </section>
+  </body>
+</html>
